@@ -3,9 +3,9 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "bun scripts/generate-search-index.ts && astro dev",
-    "build": "bun scripts/generate-search-index.ts && astro build",
-    "start": "astro preview",
+    "dev": "node init && bun scripts/generate-search-index.ts && astro dev",
+    "build": "node init && bun scripts/generate-search-index.ts && astro build",
+    "start": "node init && astro preview",
     "typecheck": "tsc --noEmit",
     "typecheck:astro": "astro check",
     "format": "biome format --write .",
