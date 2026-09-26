@@ -22,7 +22,6 @@ apps/site/public/search-index-*.json
 node_modules/
 
 # Environment
-.env
 .DS_Store
 
 # Python
@@ -35,7 +34,6 @@ access.log
 
 # IDE
 .idea/
-.vscode/
 .claude/
 *.swp
 *.swo
@@ -67,3 +65,4 @@ target/
 .grok/
 
 context/
+config.bat
